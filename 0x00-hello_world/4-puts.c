@@ -1,10 +1,13 @@
+
 #include <stdio.h>
+
 /**
-* main - Printing in C Language
+*main - prints in C
 *
-*Return: Always returns 0 by default
+*Return: always returns zero by default
 */
 int main(void)
 {
  puts("\"Programming is like building a multilingual puzzle");
  return (0);
+}
