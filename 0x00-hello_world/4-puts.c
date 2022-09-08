@@ -1,8 +1,7 @@
 
 #include <stdio.h>
-
 /**
-*main - prints in C
+ *main- prints in C
 *
 *Return: always returns zero by default
 */
