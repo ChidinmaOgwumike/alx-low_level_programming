@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
  * main - program that prints all possible different combinations of 2 digits
@@ -22,7 +23,7 @@ int main(void)
 			if (c != 89)
 			{
 				putchar(',');
-				putchar(',');
+				putchar(' ');
 			}
 		}
 		c++;
