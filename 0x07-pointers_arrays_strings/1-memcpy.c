@@ -1,11 +1,10 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * _memcpy - copies n bytes from memory area src to dest
  * @dest: destination
  * @src: source
  * @n: number of bytes to be copied
- *
  * Return: pointer to dest
  */
 
