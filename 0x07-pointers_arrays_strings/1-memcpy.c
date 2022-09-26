@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  * _memcpy - copies a memory area
@@ -15,7 +15,8 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	
 	for (; i < n; i++)
 	{
-		des[i] = src [i];
+		des[i] = src[i];
 	}
+	
 	return (dest);
 }
