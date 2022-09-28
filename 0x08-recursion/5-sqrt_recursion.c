@@ -1,42 +1,30 @@
 #include "main.h"
+
 /**
- * _evaluate - evaluate function sqrt
- * @i: integer
- * @n: integer
- * Return: evaluate sqrt
+ * _sqrt_recursion - returns the square root of a number
+ * @n: number to be used
+ *
+ * Return: the square root of n
  */
-
-int_evaluate(int i, int n)
-{
-/*Evaluate function*/
-if (n == 0 || n == 1)
-return (n);
-
-else if (i + i < n)
-return (_evaluate(i + 1, n));
-
-else if (i + i == n) /*Condiction base*/
-return (i);
-
-return (-1);
-
-return (-1);
-}
-/**
- *_sqrt_recursion - evaluate sqrt
- *@n: integer
- *Return: Sqrt_recursion
- */
-
 int _sqrt_recursion(int n)
 {
-	int i = 0;
+	if (n == 1 || n == 0)
+		return (n);
+	return (_sqrt(0, n));
+}
 
-	if (i < 0) /*If n is negative*/
+/**
+ * _sqrt - returns the square root of a number
+ * @n: test number
+ * @c: squared number
+ *
+ * Return: the square root of n
+ */
+int _sqrt(int n, int c)
+{
+	if (n > c / 2)
 		return (-1);
-
-	else
-	{
-		return (_evaluate(i, n)); /*Recursive call*/
-	}
+	else if (n * n == c)
+		return (n);
+	return (_sqrt(n + 1, c));
 }
