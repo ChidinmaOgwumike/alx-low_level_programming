@@ -4,7 +4,7 @@
 /**
  * main - function
  * @argc: length of argv
- * @argv: number pf argument
+ * @argv: number of argument
  * Return: Always 0
  */
 
