@@ -4,9 +4,9 @@
 #include <string.h>
 
 /**
- * check_num - check - string there are digit
+ * check_num - check - string there are digiti
  * @str: array str
- *
+ *i
  * Return: Always 0 (Success)
  */
 
